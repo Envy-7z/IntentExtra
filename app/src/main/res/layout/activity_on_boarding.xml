@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11FFBD"
+    android:layout_gravity="center"
+    tools:context=".activity.OnBoardingActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/imagePertama"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@id/imagePertama"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Bold24"
+        android:text="Selamat Datang"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:id="@+id/text2"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Bold20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/text3"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Bold20"
+        android:text="Untuk Ibu Hamil"
+        android:layout_below="@id/text2"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:gravity="center"
+        android:layout_below="@id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        app:cardCornerRadius="20dp">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg3_card">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mulai"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.Bold22"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

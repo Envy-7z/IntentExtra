@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Abdomen Excercise Apps</string>
+    <string name="name">ABDOMEN EXCERCISE APPLICATION</string>
+
+    <string name="pengatahuan">Pengetahuan</string>
+    <string name="teknik">Teknik Gerakan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
